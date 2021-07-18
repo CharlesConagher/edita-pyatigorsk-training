@@ -98,12 +98,12 @@ li {
 }
 .header .header__bottom .header__bottom-section .header__bottom-list .header__bottom-item .header__bottom-item-name {
   font-family: "CirceBold", sans-serif;
-  color: black;
+  color: #000000;
   font-size: 14px;
 }
 .header .header__bottom .header__bottom-section .header__bottom-list .header__bottom-item .header__bottom-item-name:hover {
   text-decoration: underline;
-  color: black;
+  color: #000000;
 }
 .header .header__bottom .header__bottom-section .header__bottom-list .header__bottom-tel {
   display: flex;
@@ -114,13 +114,13 @@ li {
 .header .header__bottom .header__bottom-section .header__bottom-list .header__bottom-tel .header__bottom-tel-name {
   font-family: "CirceLight", sans-serif;
   font-size: 15px;
-  color: black;
+  color: #000000;
   margin-left: 5px;
   height: 20px;
 }
 .header .header__bottom .header__bottom-section .header__bottom-list .header__bottom-tel .header__bottom-tel-name:hover {
   text-decoration: underline;
-  color: black;
+  color: #000000;
 }
 .header .header__bottom .header__bottom-section .header__bottom-list .header__button1 {
   display: flex;
@@ -138,7 +138,7 @@ li {
 .header .header__bottom .header__bottom-section .header__bottom-list .header__button1 .header__button1-name {
   font-family: "CirceRegular", sans-serif;
   font-size: 11px;
-  color: black;
+  color: #000000;
   line-height: 14px;
   margin: 0;
 }
@@ -213,22 +213,22 @@ li {
   font-size: 30px;
   line-height: 36px;
   font-weight: 500;
-  color: black;
+  color: #000000;
 }
 .intro .intro__grid .grid__item1 .intro__grid-gallery .grid-gallery__item1 .item-lable1 .grid-item__desc-big {
   margin: 35px 35px 0 35px;
   font-family: "CirceLight", sans-serif;
   font-size: 20px;
   line-height: 25px;
-  color: black;
+  color: #000000;
 }
 .intro .intro__grid .grid__item1 .intro__grid-gallery .grid-gallery__item1 .grid-item__button {
   height: 50px;
   width: 200px;
   display: flex;
-  border: 1px solid black;
+  border: 1px solid #000000;
   margin: 35px 35px 0 35px;
-  color: black;
+  color: #000000;
   justify-content: center;
   align-items: center;
   font-family: "CirceLight";
@@ -324,7 +324,7 @@ li {
   font-size: 20px;
   line-height: 28px;
   font-weight: 500;
-  color: black;
+  color: #000000;
 }
 .intro .intro__grid .grid-item__label .grid-item__name-small:hover {
   text-decoration: underline;
@@ -335,7 +335,7 @@ li {
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
-  color: black;
+  color: #000000;
   letter-spacing: 0.18em;
 }
 .intro .intro__grid .grid-item__label .grid-item__desc-small:hover {
@@ -374,7 +374,7 @@ li {
   font-weight: 500;
   letter-spacing: 0.2em;
   text-align: center;
-  color: black;
+  color: #000000;
 }
 .features .features__list .features__item .feature__item-desc {
   font-family: "CirceRegular", sans-serif;
@@ -383,7 +383,7 @@ li {
   text-align: center;
   line-height: 18px;
   letter-spacing: 0.015em;
-  color: black;
+  color: #000000;
 }
 .features .features__list .features__item5 {
   border: none;
@@ -411,7 +411,7 @@ li {
   font-family: "CirceBold", sans-serif;
   font-size: 30px;
   letter-spacing: 0.003em;
-  color: black;
+  color: #000000;
   border-left: 3px solid #e9c04a;
   border-right: 3px solid #e9c04a;
   margin: 0;
@@ -451,22 +451,22 @@ li {
   font-size: 18px;
   line-height: 24px;
   margin: 0 45px 0 45px;
-  color: black;
+  color: #000000;
 }
 .about .about__block .about__block-right .about__block-desc2 {
   font-family: "CirceLight", sans-serif;
   font-size: 16px;
   line-height: 24px;
   margin: 0 45px 0 45px;
-  color: black;
+  color: #000000;
 }
 .about .about__block .about__block-right .about__block-button {
   height: 50px;
   width: 270px;
   display: flex;
-  border: 1px solid black;
+  border: 1px solid #000000;
   margin: 0px 45px 0 45px;
-  color: black;
+  color: #000000;
   justify-content: center;
   align-items: center;
   font-family: "CirceRegular";
@@ -583,7 +583,7 @@ li {
   font-size: 16px;
   letter-spacing: 0.01em;
   text-align: center;
-  color: black;
+  color: #000000;
   margin: 0 20px;
 }
 .shop__gallery .gallery__item .gallery__item-label .gallery__item-art {
@@ -646,7 +646,7 @@ li {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.025em;
-  color: black;
+  color: #000000;
   align-self: center;
 }
 .shop__gallery .gallery__item1 {
@@ -742,7 +742,7 @@ li {
 }
 .offers .offers__block1 .offers__block-button:hover {
   background-color: #ffffff;
-  color: black;
+  color: #000000;
 }
 .offers .offers__block2 {
   background: linear-gradient(146deg, whitesmoke 0%, gainsboro 100%);
@@ -753,14 +753,14 @@ li {
   letter-spacing: 0.035em;
   font-weight: 500;
   margin: 10px 0;
-  color: black;
+  color: #000000;
 }
 .offers .offers__block2 .offers__block-desc-black {
   font-family: "CirceRegular", sans-serif;
   font-size: 16px;
   letter-spacing: 0.015em;
   line-height: 25px;
-  color: black;
+  color: #000000;
   margin: 15px;
   width: 50%;
 }
@@ -835,12 +835,12 @@ li {
   font-family: "CirceLight", sans-serif;
   font-size: 24px;
   line-height: 30px;
-  color: black;
+  color: #000000;
 }
 .articles .articles__list .articles__item2 .articles__item-label-white .articles__button-blue {
   display: flex;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid #000000;
+  color: #000000;
   font-family: "CirceLight", sans-serif;
   font-size: 14px;
   letter-spacing: 0.2em;
@@ -859,7 +859,7 @@ li {
   font-family: "CirceBold", sans-serif;
   font-size: 14px;
   letter-spacing: 0.1em;
-  color: black;
+  color: #000000;
 }
 .articles .articles__learnmore:hover {
   text-decoration: underline;
@@ -903,7 +903,7 @@ li {
   font-family: "CirceRegular", sans-serif;
   font-size: 14px;
   letter-spacing: 0.13em;
-  color: black;
+  color: #000000;
 }
 .footer .footer__nav .footer__nav-list .footer__nav-item .footer__nav-name:hover {
   text-decoration: underline;
@@ -933,7 +933,7 @@ li {
   margin-left: 30px;
   font-family: "CirceRegular", sans-serif;
   font-size: 15px;
-  color: black;
+  color: #000000;
 }
 .footer .footer__main .footer__contacts .footer__telephone .footer__number:hover {
   text-decoration: underline;
@@ -952,13 +952,13 @@ li {
   font-family: "CirceRegular", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  color: black;
+  color: #000000;
   margin: 0 0 0 30px;
 }
 .footer .footer__main .footer__catalogue {
   display: flex;
   flex-direction: row;
-  color: black;
+  color: #000000;
   margin: 30px 0 0 120px;
 }
 .footer .footer__main .footer__catalogue .footer__catalogue-list {
@@ -972,7 +972,7 @@ li {
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: black;
+  color: #000000;
 }
 .footer .footer__main .footer__catalogue .footer__catalogue-list .footer__catalogue-name:hover {
   text-decoration: underline;
@@ -1013,14 +1013,14 @@ li {
 .footer .footer__map .footer__map-button .footer__map-name {
   font-family: "CirceRegular";
   font-size: 16px;
-  color: black;
+  color: #000000;
   margin-right: 30px;
 }
 .footer .footer__map .footer__map-button .arrow__right-black {
   width: 6px;
   height: 6px;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
   transform: rotate(45deg);
 }
 .footer .footer__copyright {
