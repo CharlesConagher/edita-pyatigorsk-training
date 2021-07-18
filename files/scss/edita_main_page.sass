@@ -1,10 +1,10 @@
 body
     margin: 0
-    color: white
+    color: #ffffff
 
 a 
     text-decoration: none
-    color: white    
+    color: #ffffff    
 
 li 
     list-style: none
@@ -55,11 +55,11 @@ li
                     font-weight: 500
                     font-size: 15px
                     line-height: 10px
-                    color: white
+                    color: #ffffff
                     padding-left: 10px
                     &:hover 
                         text-decoration: underline
-                        color: white //Header Up (end)--------------------------------------------------------------------------------
+                        color: #ffffff //Header Up (end)--------------------------------------------------------------------------------
     .header__bottom //Header Bottom (start)--------------------------------------------------------------------------
         display: flex
         max-width: 1170px
@@ -67,7 +67,7 @@ li
         margin: 0 auto
         .header__bottom-section 
             margin-left: 235px
-            background-color: white
+            background-color: #ffffff
             .header__bottom-list 
                 display: flex
                 flex-direction: row
@@ -133,7 +133,7 @@ li
                     .header__button2-name
                         font-family: "CirceRegular", sans-serif
                         font-size: 11px
-                        color: white
+                        color: #ffffff
                         line-height: 14px
                         margin: 0
 /*Header Bottom (end)--------------------------------------------------------------------------*/
@@ -167,6 +167,25 @@ li
                 .grid-gallery__item1
                     background: url("../img/intro_block/intro_block_01.jpg") no-repeat
                     background-size: cover
+                    .item-lable1
+                        width: 300px
+                        height: 340px
+                        align-self: flex-end
+                        justify-self: flex-end
+                        margin-right: 35px
+                        .grid-item__name-big
+                            margin: 35px 35px 0 35px
+                            font-family: "CirceLight", sans-serif
+                            font-size: 30px
+                            line-height: 36px
+                            font-weight: 500
+                            color: black
+                        .grid-item__desc-big
+                            margin: 35px 35px 0 35px
+                            font-family: "CirceLight", sans-serif
+                            font-size: 20px
+                            line-height: 25px
+                            color: black    
                     .grid-item__button
                         height: 50px
                         width: 200px
@@ -181,7 +200,7 @@ li
                         letter-spacing: 0.2em
                         transition: 0.5s
                         &:hover
-                            color: white
+                            color: #ffffff
                             background-color: rgba(57, 85, 133)
                 .slick-arrow
                     position: relative
@@ -208,88 +227,69 @@ li
             grid-row-start: 1
             grid-row-end: 2
             background: url("../img/intro_block/intro_block_02.jpg") no-repeat
+            .item-lable2
+                width: 170px
+                align-self: flex-end
+                justify-self: flex-start
         .grid__item3
             grid-column-start: 3
             grid-column-end: 4
             grid-row-start: 2
             grid-row-end: 3
             background: url("../img/intro_block/intro_block_03.jpg") no-repeat
+            .item-lable3
+                width: 170px
+                align-self: flex-start
+                justify-self: flex-start
         .grid__item4
             grid-column-start: 1
             grid-column-end: 2
             grid-row-start: 3
             grid-row-end: 4
             background: url("../img/intro_block/intro_block_04.jpg") no-repeat
+            .item-lable4
+                width: 170px
+                align-self: flex-end
+                justify-self: flex-start
         .grid__item5
             grid-column-start: 2
             grid-column-end: 4
             grid-row-start: 3
             grid-row-end: 4
             background: url("../img/intro_block/intro_block_05.jpg")
-            .grid-item__label
-                background-color: white
-                display: flex
-                flex-direction: column
-                margin: 25px
-                .item-lable1
-                    width: 300px
-                    height: 340px
-                    align-self: flex-end
-                    justify-self: flex-end
-                    margin-right: 35px
-                .item-lable2
-                    width: 170px
-                    align-self: flex-end
-                    justify-self: flex-start
-                .item-lable3
-                    width: 170px
-                    align-self: flex-start
-                    justify-self: flex-start
-                .item-lable4
-                    width: 170px
-                    align-self: flex-end
-                    justify-self: flex-start
-                .item-lable5
-                    width: 300px
-                    align-self: flex-start
-                    justify-self: flex-start
-                    .grid-item__name-big
-                        margin: 35px 35px 0 35px
-                        font-family: "CirceLight", sans-serif
-                        font-size: 30px
-                        line-height: 36px
-                        font-weight: 500
-                        color: black
-                    .grid-item__desc-big
-                        margin: 35px 35px 0 35px
-                        font-family: "CirceLight", sans-serif
-                        font-size: 20px
-                        line-height: 25px
-                        color: black
-                    .grid-item__name-small
-                        margin: 20px 30px 20px 30px
-                        font-family: "CirceLight", sans-serif
-                        font-size: 20px
-                        line-height: 28px
-                        font-weight: 500
-                        color: black
-                        &:hover
-                            text-decoration: underline
-                    .grid-item__desc-small
-                        margin: 0 30px 30px
-                        font-family: "CirceRegular", sans-serif
-                        font-size: 12px
-                        line-height: 18px
-                        font-weight: 500
-                        color: black
-                        letter-spacing: 0.18em
-                        &:hover
-                            text-decoration: underline
+            .item-lable5
+                width: 300px
+                align-self: flex-start
+                justify-self: flex-start
+        .grid-item__label
+            background-color: #ffffff
+            display: flex
+            flex-direction: column
+            margin: 25px
+            .grid-item__name-small
+                margin: 20px 30px 20px 30px
+                font-family: "CirceLight", sans-serif
+                font-size: 20px
+                line-height: 28px
+                font-weight: 500
+                color: black
+                &:hover
+                    text-decoration: underline
+            .grid-item__desc-small
+                margin: 0 30px 30px
+                font-family: "CirceRegular", sans-serif
+                font-size: 12px
+                line-height: 18px
+                font-weight: 500
+                color: black
+                letter-spacing: 0.18em
+                &:hover
+                    text-decoration: underline
 /*Intro (end)-------------------------------------------------------------------------------------*/
 
 /*Features (start)----------------------------------------------------------------------------------*/
 .features
-    background-color: white
+    background-color: #ffffff
     padding: 30px 0
     margin: 20px auto
     .features__list
@@ -337,7 +337,7 @@ li
         font-family: "CirceBold", sans-serif
         font-size: 30px
         letter-spacing: 0.003em
-        color: white
+        color: #ffffff
         border-left: 3px solid #e9c04a
         border-right: 3px solid #e9c04a
         margin: 0
@@ -402,7 +402,7 @@ li
                 letter-spacing: 0.18em
                 transition: 0.5s
                 &:hover
-                    color: white
+                    color: #ffffff
                     background-color: rgba(57, 85, 133)
 /*About (end)-------------------------------------------------------------------------------------------*/
 /*Shop Gallery themes (start)-----------------------------------------------------------------------------------*/
@@ -446,8 +446,8 @@ li
         .arrow__left
             width: 6px
             height: 6px
-            border-top: 2px solid white
-            border-left: 2px solid white
+            border-top: 2px solid #ffffff
+            border-left: 2px solid #ffffff
             transform: rotate(-45deg)
     .gallery__item
         height: 650px
@@ -457,18 +457,22 @@ li
         align-items: center
         margin: 0 10px
         padding: 15px
-    .gallery__item1
-        background: url("../img/shop_gallery/shop_gallery_img1.jpg") center top 20%
-    .gallery__item2
-        background: url("../img/shop_gallery/shop_gallery_img2.jpg") center top 20%
-    .gallery__item3
-        background: url("../img/shop_gallery/shop_gallery_img3.jpg") center top 20%
-    .gallery__item4
-        background: url("../img/shop_gallery/shop_gallery_img4.jpg") center top 20%
-    .gallery__item5
-        background: url("../img/shop_gallery/shop_gallery_img5.jpg") center top 20%
-    .gallery__item6
-        background: url("../img/shop_gallery/shop_gallery_img6.jpg") center top 20%
+        .gallery__item-button
+            width: 100%
+            height: 50px
+            background-color: #3a5079
+            text-align: center
+            opacity: 90%
+            transition: 0.5s
+            &:hover
+                background-color: #c2242d
+            .gallery__item-button-name
+                font-family: "CirceLight", sans-serif
+                font-size: 14px
+                letter-spacing: 0.2em
+                color: #ffffff
+                display: block
+                margin-top: 15px
         .gallery__item-label
             width: 100%
             height: auto
@@ -506,21 +510,7 @@ li
                 font-family: "Rouble", sans-serif
                 font-size: 24px
                 color: #b98d0f
-                margin: 0 0 20px 0
-        .gallery__item-button
-            width: 100%
-            height: 50px
-            background-color: #3a5079
-            text-align: center
-            opacity: 90%
-            transition: 0.5s
-            .gallery__item-button-name
-                font-family: "CirceLight", sans-serif
-                font-size: 14px
-                letter-spacing: 0.2em
-                color: white
-                display: block
-                margin-top: 15px
+                margin: 0 0 20px 0  
         .gallery__item-modificators
             display: flex
             flex-direction: column
@@ -541,7 +531,7 @@ li
                     font-size: 12px
                     font-weight: 600
                     letter-spacing: 0.025em
-                    color: white
+                    color: #ffffff
                     align-self: center
             .gallery__item__mod-new
                 width: 80px
@@ -550,7 +540,7 @@ li
                 flex-direction: column
                 text-align: center
                 justify-content: center
-                background-color: white
+                background-color: #ffffff
                 box-shadow: 5px 5px 14px 0px rgba(34, 60, 80, 0.14)
                 .gallery__item__mod-name-black
                     font-family: "CirceRegular", sans-serif
@@ -558,7 +548,20 @@ li
                     font-weight: 600
                     letter-spacing: 0.025em
                     color: black
-                    align-self: center
+                    align-self: center              
+    .gallery__item1
+        background: url("../img/shop_gallery/shop_gallery_img1.jpg") center top 20%
+    .gallery__item2
+        background: url("../img/shop_gallery/shop_gallery_img2.jpg") center top 20%
+    .gallery__item3
+        background: url("../img/shop_gallery/shop_gallery_img3.jpg") center top 20%
+    .gallery__item4
+        background: url("../img/shop_gallery/shop_gallery_img4.jpg") center top 20%
+    .gallery__item5
+        background: url("../img/shop_gallery/shop_gallery_img5.jpg") center top 20%
+    .gallery__item6
+        background: url("../img/shop_gallery/shop_gallery_img6.jpg") center top 20%
+        
     .gallery__button-right
         display: flex
         flex-direction: column
@@ -574,8 +577,8 @@ li
         .arrow__right
             width: 6px
             height: 6px
-            border-top: 2px solid white
-            border-right: 2px solid white
+            border-top: 2px solid #ffffff
+            border-right: 2px solid #ffffff
             transform: rotate(45deg)
 /*Shop Gallery (end)-------------------------------------------------------------------------------------*/
 /*Offers(start)-----------------------------------------------------------------------------------------*/
@@ -591,56 +594,56 @@ li
         text-align: center
         width: 50%
         padding-top: 50px
-        .offers__block1
-            background: url("../img/offers_background.jpg") center
-            background-size: cover
-        .offers__block2
-            background: linear-gradient(146deg, rgba(245,245,245,1) 0%, rgba(220,220,220,1) 100%)
-            .offers__block-name1
-                font-family: "CirceLight", sans-serif
-                font-size: 14px
-                letter-spacing: 0.2em
-            .offers__block-name2
-                font-family: "CirceLight", sans-serif
-                font-size: 24px
-                letter-spacing: 0.035em
-                font-weight: 500
-                margin: 10px 0
-            .offers__block-name2-black
-                font-family: "CirceLight", sans-serif
-                font-size: 24px
-                letter-spacing: 0.035em
-                font-weight: 500
-                margin: 10px 0
-                color: black
-            .offers__block-desc
-                font-family: "CirceRegular", sans-serif
-                font-size: 16px
-                letter-spacing: 0.015em
-                line-height: 25px
-                margin: 15px
-                width: 50%
-            .offers__block-desc-black
-                font-family: "CirceRegular", sans-serif
-                font-size: 16px
-                letter-spacing: 0.015em
-                line-height: 25px
-                color: black
-                margin: 15px
-                width: 50%
-            .offers__block-button
-                display: flex
-                border: 1px solid white
-                font-family: "CirceLight", sans-serif
-                font-size: 14px
-                letter-spacing: 0.2em
-                width: 195px
-                justify-content: center
-                padding: 15px
-                transition: 0.5s
-                &:hover
-                    background-color: white
-                    color: black
+    .offers__block1
+        background: url("../img/offers_background.jpg") center
+        background-size: cover
+        .offers__block-name1
+            font-family: "CirceLight", sans-serif
+            font-size: 14px
+            letter-spacing: 0.2em
+        .offers__block-name2
+            font-family: "CirceLight", sans-serif
+            font-size: 24px
+            letter-spacing: 0.035em
+            font-weight: 500
+            margin: 10px 0
+        .offers__block-desc
+            font-family: "CirceRegular", sans-serif
+            font-size: 16px
+            letter-spacing: 0.015em
+            line-height: 25px
+            margin: 15px
+            width: 50%
+        .offers__block-button
+            display: flex
+            border: 1px solid #ffffff
+            font-family: "CirceLight", sans-serif
+            font-size: 14px
+            letter-spacing: 0.2em
+            width: 195px
+            justify-content: center
+            padding: 15px
+            transition: 0.5s
+            &:hover
+                background-color: #ffffff
+                color: black            
+    .offers__block2
+        background: linear-gradient(146deg, rgba(245,245,245,1) 0%, rgba(220,220,220,1) 100%)
+        .offers__block-name2-black
+            font-family: "CirceLight", sans-serif
+            font-size: 24px
+            letter-spacing: 0.035em
+            font-weight: 500
+            margin: 10px 0
+            color: black
+        .offers__block-desc-black
+            font-family: "CirceRegular", sans-serif
+            font-size: 16px
+            letter-spacing: 0.015em
+            line-height: 25px
+            color: black
+            margin: 15px
+            width: 50%
 /*Offers(end)----------------------------------------------------------------------------------------*/
 /*Articles (start)------------------------------------------------------------------------------------*/
 .articles
@@ -663,35 +666,19 @@ li
         .articles__item1
             background: url("../img/articles_background/articles_background1.jpg")
             background-size: cover
-        .articles__item2
-            background: url("../img/articles_background/articles_background2.jpg")
-            background-size: cover
             .articles__item-label
                 display: flex
                 flex-direction: column
                 text-align: center
                 align-items: center
                 justify-content: center
-            .articles__item-label-white
-                display: flex
-                flex-direction: column
-                text-align: center
-                align-items: center
-                justify-content: center
-                background: white
-                opacity: 90%
                 .aritcles__item-name
                     font-family: "CirceLight", sans-serif
                     font-size: 24px
                     line-height: 30px
-                .aritcles__item-name-black
-                    font-family: "CirceLight", sans-serif
-                    font-size: 24px
-                    line-height: 30px
-                    color: black
                 .articles__button-red
                     display: flex
-                    border: 1px solid white
+                    border: 1px solid #ffffff
                     font-family: "CirceLight", sans-serif
                     font-size: 14px
                     letter-spacing: 0.2em
@@ -700,8 +687,24 @@ li
                     padding: 15px
                     transition: 0.5s
                     &:hover
-                        background-color: red
-                        color: white
+                        background-color: #c2242d
+                        color: #ffffff    
+        .articles__item2
+            background: url("../img/articles_background/articles_background2.jpg")
+            background-size: cover
+            .articles__item-label-white
+                display: flex
+                flex-direction: column
+                text-align: center
+                align-items: center
+                justify-content: center
+                background: #ffffff
+                opacity: 90%
+                .aritcles__item-name-black
+                    font-family: "CirceLight", sans-serif
+                    font-size: 24px
+                    line-height: 30px
+                    color: black
                 .articles__button-blue
                     display: flex
                     border: 1px solid black
@@ -715,16 +718,16 @@ li
                     transition: 0.5s
                     &:hover
                         background-color: #3a5079
-                        color: white
-        .articles__learnmore
-            display: block
-            margin: 60px 0
-            font-family: "CirceBold", sans-serif
-            font-size: 14px
-            letter-spacing: 0.1em
-            color: black
-            &:hover
-                text-decoration: underline
+                        color: #ffffff
+    .articles__learnmore
+        display: block
+        margin: 60px 0
+        font-family: "CirceBold", sans-serif
+        font-size: 14px
+        letter-spacing: 0.1em
+        color: black
+        &:hover
+            text-decoration: underline
 /*Articles (end)------------------------------------------------------------------------------------*/
 /*Footer (start)--------------------------------------------------------------------------------------*/
 .footer
@@ -839,26 +842,26 @@ li
             flex-direction: row
             align-items: center
             justify-content: center
-            background-color: white
+            background-color: #ffffff
             transition: 0.5s
             &:hover
-                background-color: red
-                color: white
-                .footer__map-name
-                    font-family: "CirceRegular"
-                    font-size: 16px
-                    color: black
-                    margin-right: 30px
-                .arrow__right-black
-                    width: 6px
-                    height: 6px
-                    border-top: 1px solid black
-                    border-right: 1px solid black
-                    transform: rotate(45deg)
+                background-color: #c2242d
+                color: #ffffff
+            .footer__map-name
+                font-family: "CirceRegular"
+                font-size: 16px
+                color: black
+                margin-right: 30px
+            .arrow__right-black
+                width: 6px
+                height: 6px
+                border-top: 1px solid black
+                border-right: 1px solid black
+                transform: rotate(45deg)
     .footer__copyright
         height: 45px
         width: 100%
-        background-color: white
+        background-color: #ffffff
         display: flex
         flex-direction: row
         align-items: center
@@ -881,7 +884,6 @@ li
 /*Footer (end)--------------------------------------------------------------------------------------*/
 
 /*Sliders Section (start)-----------------------------------------------------------------------------*/
-
 .slick-list
     overflow: hidden   
     .shop__gallery .slick-arrow
@@ -893,21 +895,17 @@ li
     .slick-track
         display: flex
     
-.shop__gallery .slick-arrow.slick-next
+.shop__gallery .slick-arrow.slick-next,
+.shop__gallery .slick-arrow.slick-prev
     left: 0
     height: 300px
     width: 200px
     background-color: #888888
+    border: none
+    font-size: 0
+    margin-top: 150px
     &:hover
         background-color: rgba(57, 85, 133)    
-
-.shop__gallery .slick-arrow.slick-prev
-    right: 0
-    height: 300px
-    width: 200px
-    background-color: #888888
-    &:hover
-        background-color: rgba(57, 85, 133)
 
 .slick-arrow.slick-prev
     background: url("../img/icons/left_arrow.svg") center no-repeat
@@ -915,5 +913,3 @@ li
 .slick-arrow.slick-next
     background: url("../img/icons/right_arrow.svg") center no-repeat
     background-size: 50%
-
-
