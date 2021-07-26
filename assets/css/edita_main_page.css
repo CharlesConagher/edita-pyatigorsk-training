@@ -200,14 +200,14 @@ li {
   background: url("../img/intro_block/intro_block_01.jpg") no-repeat;
   background-size: cover;
 }
-.intro .intro__grid .grid__item1 .intro__grid-gallery .grid-gallery__item1 .item-lable1 {
+.intro .intro__grid .grid__item1 .intro__grid-gallery .grid-gallery__item1 .item-label1 {
   width: 300px;
   height: 340px;
   align-self: flex-end;
   justify-self: flex-end;
   margin-right: 35px;
 }
-.intro .intro__grid .grid__item1 .intro__grid-gallery .grid-gallery__item1 .item-lable1 .grid-item__name-big {
+.intro .intro__grid .grid__item1 .intro__grid-gallery .grid-gallery__item1 .item-label1 .grid-item__name-big {
   margin: 35px 35px 0 35px;
   font-family: "CirceLight", sans-serif;
   font-size: 30px;
@@ -215,7 +215,7 @@ li {
   font-weight: 500;
   color: #000000;
 }
-.intro .intro__grid .grid__item1 .intro__grid-gallery .grid-gallery__item1 .item-lable1 .grid-item__desc-big {
+.intro .intro__grid .grid__item1 .intro__grid-gallery .grid-gallery__item1 .item-label1 .grid-item__desc-big {
   margin: 35px 35px 0 35px;
   font-family: "CirceLight", sans-serif;
   font-size: 20px;
@@ -271,7 +271,7 @@ li {
   grid-row-end: 2;
   background: url("../img/intro_block/intro_block_02.jpg") no-repeat;
 }
-.intro .intro__grid .grid__item2 .item-lable2 {
+.intro .intro__grid .grid__item2 .item-label2 {
   width: 170px;
   align-self: flex-end;
   justify-self: flex-start;
@@ -283,7 +283,7 @@ li {
   grid-row-end: 3;
   background: url("../img/intro_block/intro_block_03.jpg") no-repeat;
 }
-.intro .intro__grid .grid__item3 .item-lable3 {
+.intro .intro__grid .grid__item3 .item-label3 {
   width: 170px;
   align-self: flex-start;
   justify-self: flex-start;
@@ -295,7 +295,7 @@ li {
   grid-row-end: 4;
   background: url("../img/intro_block/intro_block_04.jpg") no-repeat;
 }
-.intro .intro__grid .grid__item4 .item-lable4 {
+.intro .intro__grid .grid__item4 .item-label4 {
   width: 170px;
   align-self: flex-end;
   justify-self: flex-start;
@@ -307,7 +307,7 @@ li {
   grid-row-end: 4;
   background: url("../img/intro_block/intro_block_05.jpg");
 }
-.intro .intro__grid .grid__item5 .item-lable5 {
+.intro .intro__grid .grid__item5 .item-label5 {
   width: 300px;
   align-self: flex-start;
   justify-self: flex-start;
@@ -465,11 +465,11 @@ li {
   width: 270px;
   display: flex;
   border: 1px solid #000000;
-  margin: 0px 45px 0 45px;
+  margin: 0 45px 0 45px;
   color: #000000;
   justify-content: center;
   align-items: center;
-  font-family: "CirceRegular";
+  font-family: "CirceRegular", sans-serif;
   font-size: 12px;
   letter-spacing: 0.18em;
   transition: 0.5s;
@@ -587,14 +587,14 @@ li {
   margin: 0 20px;
 }
 .shop__gallery .gallery__item .gallery__item-label .gallery__item-art {
-  font-family: "CirceRegular";
+  font-family: "CirceRegular", sans-serif;
   font-size: 12px;
   letter-spacing: 0.01em;
   color: #6b6b6b;
   margin: 0;
 }
 .shop__gallery .gallery__item .gallery__item-label .gallery__item-discount {
-  font-family: "CirceRegular";
+  font-family: "CirceRegular", sans-serif;
   font-size: 18px;
   color: #b8b8b8;
   text-decoration: line-through;
@@ -621,7 +621,7 @@ li {
   justify-content: center;
   background-color: #c2242d;
   align-self: center;
-  box-shadow: 5px 5px 14px 0px rgba(34, 60, 80, 0.14);
+  box-shadow: 5px 5px 14px 0 rgba(34, 60, 80, 0.14);
 }
 .shop__gallery .gallery__item .gallery__item-modificators .gallery__item__mod-discount .gallery__item__mod-name-white {
   font-family: "CirceRegular", sans-serif;
@@ -639,7 +639,7 @@ li {
   text-align: center;
   justify-content: center;
   background-color: #ffffff;
-  box-shadow: 5px 5px 14px 0px rgba(34, 60, 80, 0.14);
+  box-shadow: 5px 5px 14px 0 rgba(34, 60, 80, 0.14);
 }
 .shop__gallery .gallery__item .gallery__item-modificators .gallery__item__mod-new .gallery__item__mod-name-black {
   font-family: "CirceRegular", sans-serif;
@@ -798,7 +798,7 @@ li {
   align-items: center;
   justify-content: center;
 }
-.articles .articles__list .articles__item1 .articles__item-label .aritcles__item-name {
+.articles .articles__list .articles__item1 .articles__item-label .articles__item-name {
   font-family: "CirceLight", sans-serif;
   font-size: 24px;
   line-height: 30px;
@@ -831,7 +831,7 @@ li {
   background: #ffffff;
   opacity: 90%;
 }
-.articles .articles__list .articles__item2 .articles__item-label-white .aritcles__item-name-black {
+.articles .articles__list .articles__item2 .articles__item-label-white .articles__item-name-black {
   font-family: "CirceLight", sans-serif;
   font-size: 24px;
   line-height: 30px;
@@ -945,7 +945,7 @@ li {
 }
 .footer .footer__main .footer__contacts .footer__adress .footer__loc-img {
   height: 25px;
-  width: 20xp;
+  width: 20px;
   position: absolute;
 }
 .footer .footer__main .footer__contacts .footer__adress .footer__adress-name {
@@ -1011,7 +1011,7 @@ li {
   color: #ffffff;
 }
 .footer .footer__map .footer__map-button .footer__map-name {
-  font-family: "CirceRegular";
+  font-family: "CirceRegular", sans-serif;
   font-size: 16px;
   color: #000000;
   margin-right: 30px;
@@ -1031,7 +1031,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-family: "CirceRegular";
+  font-family: "CirceRegular", sans-serif;
   font-size: 14px;
   color: #555555;
 }
@@ -1043,7 +1043,7 @@ li {
 }
 .footer .footer__copyright .footer__copyright-link {
   display: block;
-  font-family: "CirceRegular";
+  font-family: "CirceRegular", sans-serif;
   font-size: 14px;
   color: #555555;
   margin: 0 5px;
